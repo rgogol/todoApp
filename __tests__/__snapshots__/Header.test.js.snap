@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header render as expected 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#102e4a",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "padding": 20,
+      "paddingTop": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#cfd6ea",
+        "fontSize": 18,
+        "fontWeight": "700",
+      }
+    }
+  >
+    TODO APP
+  </Text>
+  <ShareButton />
+</View>
+`;

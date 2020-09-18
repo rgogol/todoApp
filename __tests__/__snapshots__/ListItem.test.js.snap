@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem render as expected 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#f8f8f8",
+        "borderRadius": 5,
+        "elevation": 2,
+        "justifyContent": "space-between",
+        "marginHorizontal": 10,
+        "marginTop": 10,
+        "padding": 15,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 0,
+        },
+        "shadowOpacity": 0.24,
+        "shadowRadius": 3,
+      },
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <ForwardRef
+      disabled={false}
+      onPress={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#4e598c",
+            "borderRadius": 15,
+            "borderWidth": 1,
+            "height": 30,
+            "justifyContent": "center",
+            "marginRight": 10,
+            "width": 30,
+          },
+          false,
+        ]
+      }
+      testID="mark-as-done-btn"
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 15,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Drink water
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#4e598c",
+        "fontSize": 13,
+      }
+    }
+  >
+    18/09/2020
+  </Text>
+</View>
+`;
